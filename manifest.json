@@ -1,0 +1,33 @@
+{
+	"name": "Jigsaw Puzzle",
+	"short_name": "Funny Game",
+    "manifest_version": 2,
+	"version":"1.0.0.0",
+    "description": "You need to put pieces of photo to right position to get original photo.",
+    "browser_action": {
+		"default_icon": "icon/48.png",
+		"default_title": "Launch game"
+	},
+	"background":{
+		"page":"bgr.html",
+		"persistent": false
+	},
+	"permissions": [
+	    "tabs",
+        "activeTab",
+        "storage",
+        "<all_urls>"
+	],
+	"icons": {"48": "icon/48.png",
+			"16": "icon/16.png",
+			"32": "icon/32.png",
+			"64": "icon/64.png",
+			"128": "icon/128.png"},
+	"web_accessible_resources": [
+		"game/*.html",
+		"game/assets/*.jpg",
+		"game/*.css",
+		"game/*.js"
+	 ],
+	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+}

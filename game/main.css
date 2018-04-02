@@ -1,0 +1,82 @@
+#myCanvas{background:rgb(90, 90, 90) !important;box-shadow: 0px 0px 50px 0px #9E9E9E;}
+#btok{padding:5px 20px;border-radius:3px;background:#4CAF50;border:none;outline:none;color:white;}
+#btok:active{background:#008CBA;}
+#sellevel li{margin-right:20px;font-size:13px;}
+#sellevel li *:hover{cursor:pointer;color:orange;}
+#sellevel li *{vertical-align:top;font-weight:bold;color:white;}
+h1{font-size:15px;color:#ffe501;padding-left:20px;}
+img.thumb{width:150px;height:113px;border:2px solid black;cursor:pointer;}
+ul li{display:inline;}
+#settings .top{
+	width:100%;
+	height:20px;
+	text-align:right;
+	background: #0c83e2;
+	padding-top: 2px;
+	border-bottom: 2px solid black;
+	cursor:move;
+}
+#settings .top #closebutton{
+	display:inline-block; 
+	background:#FF5722;
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+	width:20px;
+	text-align:center;
+	user-select:none;
+	margin-right: 2px;
+    margin-top: 1px;
+}
+#settings .top #closebutton:hover{background:#E91E63;}
+#settings{
+	width:702px;
+	height:330px;
+	background:gray;
+	position:fixed;
+	top:calc(50% - 173px);
+	left:calc(50% - 351px);
+	z-index:9999;
+	border:2px solid black;
+	box-shadow: 0px 0px 50px 0px #9E9E9E
+}
+#option, #score{
+	position:fixed;
+	right:10px;
+	font-size:16px;
+	user-select:none;
+	font-weight:bold;
+}
+#option{
+	top:5px;
+	background: #2196F3;
+	border-radius: 3px;
+	padding: 3px 10px;
+	color:yellow;
+	cursor:pointer;
+}
+#score{top:55px;color:orange;}
+#option:hover{
+	color:white;
+	background:#03A9F4;
+}
+#settings, #settings *{user-select:none;}
+#bgr{
+	padding:0px;
+	width:1570px;
+}
+#view{
+	width:690px;
+	overflow-x:overlay;
+	margin-left:5px;
+}
+#view::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  background-color: transparent;
+}
+#view::-webkit-scrollbar-thumb {
+	width:5px;
+    background: rgba(255,255,255,.1); 
+	background-color:red;
+}
