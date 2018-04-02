@@ -28,6 +28,5 @@
 		"game/assets/*.jpg",
 		"game/*.css",
 		"game/*.js"
-	 ],
-	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+	 ]
 }
